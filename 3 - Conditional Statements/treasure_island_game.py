@@ -28,7 +28,7 @@ if choice == '1':
     print("[?] You chose the correct path and gained an access to a suspicious lake. What would you do?\n[1] Swim right away towards the other side \n[2] Wait for a while before swimming")
     choice = input(">> ")
     if choice == '2':
-        print("[?] ou swam safely towards the land and was met with a magical wall containing three doors, which of the doors are you going to enter?\n[1] Red door\n[2] Yellow door\n[3] Blue door")
+        print("[?] You swam safely towards the land and was met with a magical wall containing three doors, which of the doors are you going to enter?\n[1] Red door\n[2] Yellow door\n[3] Blue door")
         choice = input(">> ")
         if choice == '1':
             print("[!] Upon entering the red door, it disappeared behind you and suddenly, your surroundings started to burn with no escape for you.\n\nGAME OVER")
