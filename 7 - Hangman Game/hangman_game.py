@@ -125,10 +125,10 @@ def start_game():
     while lives != 0:
       # Ask user for guess and validate
       while True:
-        guess = input('\nGive me a letter...\n>> ').lower()
+        guess = input('\n[?] Give me a letter...\n>> ').lower()
         if validate_guess(letters, guess): # Guess is valid
             if check_guess(word, guess): # Guess is correct
-              print('Yes! Your guess is correct!')
+              print('[!] Yes! Your guess is correct!')
               correct_guesses.append(guess)
               break
             else: # Guess is incorrect
