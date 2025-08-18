@@ -66,8 +66,6 @@ def hirst_painting(color_list, rows, circle_per_rows):
             tim.forward(movement_x)
         tim.setpos(-250, (-250 + movement_y*row) )
     
-    
-
 colors = extract_rgb_from_img('18 - GUI/extract_color.png', 10)
 hirst_painting(colors, 10, 10)
  
